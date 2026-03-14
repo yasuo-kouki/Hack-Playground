@@ -26,7 +26,7 @@ jobs:
               repo: context.repo.repo,
               branch: 'main',
               required_status_checks: null,
-              enforce_admins: true,
+              enforce_admins: false,
               required_pull_request_reviews: {
                 // Invalidate existing approvals when new commits are pushed.
                 dismiss_stale_reviews: true,
